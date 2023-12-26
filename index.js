@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||蒋|子|绅|祝|你|生|日|快|乐|赚|大|钱|#rectangle|');
+      S.UI.simulate('|#countdown 3||祝|师|兄|嫂|子|永|远|幸|福|至|白|头|#rectangle|');
     }
 
     S.Drawing.loop(function () {
